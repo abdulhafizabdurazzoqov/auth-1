@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 40px;
+      }
+      form {
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .logo img {
+        width: 40x;
+        height: 30x;
+        text-align: left;
+        margin-bottom: 50px;
+      }
+      .title h1 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      .title p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        color: #999999;
+        margin-bottom: 60px;
+      }
+      .input-group {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .input-group input::placeholder {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #999999;
+      }
+      .input-group input {
+        border: none;
+        width: 400px;
+        height: 50px;
+        outline: none;
+        border-radius: 12px;
+        padding: 20px;
+        background-color: #edf0f5;
+      }
+      .input-group input a {
+        text-decoration: none;
+      }
+      .btn-block {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-block button {
+        border: none;
+        width: 400px;
+        height: 60px;
+        border-radius: 12px;
+        background-color: #3750eb;
+        color: #ffffff;
+      }
+      .btn-block button.outlined {
+        border: none;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+      }
+      hr {
+        width: 400px;
+        color: #212121;
+        margin-bottom: 30px;
+      }
+      .goToSingnin p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      .goToSingnIn p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #999999;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="logo">
+        <a href="Index.html"><img src="Ko'rsatkich.png" /></a>
+      </div>
+      <div class="title">
+        <h1>Hi!</h1>
+        <p>Create a new account</p>
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Fullname" />
+      </div>
+      <div class="input-group">
+        <input id="Email" type="email" placeholder="Email" />
+      </div>
+      <div class="input-group">
+        <input id="Password" type="password" placeholder="Password" />
+      </div>
+      <div class="btn-block">
+        <button>Sign in</button>
+      </div>
+
+      <hr />
+      <div class="input-group">
+        <a href="#" style="text-align: center; color: #999999">
+          Social Media Login
+        </a>
+      </div>
+      <div class="btn-block">
+        <button class="outlined">
+          <img src="google.png" />
+        </button>
+        <button class="outlined">
+          <img src="fasebook.png" />
+        </button>
+        <button class="outlined">
+          <img src="apple.png" />
+        </button>
+      </div>
+      <div class="goToSingnIn">
+        <p>
+          Don’t have an account?
+          <a href="singIn.html" style="color: #3750eb">Sing in</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

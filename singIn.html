@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 100px;
+      }
+      form {
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .logo img {
+        width: 40x;
+        height: 30x;
+        text-align: left;
+        margin-bottom: 50px;
+      }
+      .title h1 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      .title p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        color: #999999;
+        margin-bottom: 60px;
+      }
+      .input-group {
+        margin-bottom: 20px;
+      }
+      .input-group input::placeholder {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #999999;
+      }
+      .input-group input {
+        border: none;
+        width: 400px;
+        height: 50px;
+        outline: none;
+        border-radius: 12px;
+        background-color: #edf0f5;
+        padding: 20px;
+      }
+      .input-group a {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: right;
+        color: #3750eb;
+      }
+      .btn-block {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-block button {
+        border: none;
+        font-weight: bold;
+        width: 400px;
+        height: 60px;
+        border-radius: 12px;
+        background-color: #3750eb;
+        color: #ffffff;
+      }
+      hr {
+        width: 400px;
+        color: #212121;
+        margin-bottom: 30px;
+      }
+      .btn-block button.outlined {
+        border: none;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        background-color: white;
+      }
+      .goToSingnIn p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #999999;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="logo">
+        <a href="Index.html"><img src="Ko'rsatkich.png" /></a>
+      </div>
+      <div class="title">
+        <h1>Welcome!</h1>
+        <p>Sign in to continue</p>
+      </div>
+      <div class="input-group">
+        <input id="Email" type="email" placeholder="Email" />
+      </div>
+      <div class="input-group">
+        <input id="Password" type="password" placeholder="Password" />
+      </div>
+      <div class="btn-block">
+        <button>Sign in</button>
+      </div>
+      <div class="input-group">
+        <div style="text-align: right">
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
+      <hr />
+      <div class="input-group">
+        <div style="text-align: center">
+          <a href="#" style="color: #999999"> Social Media Login </a>
+        </div>
+      </div>
+      <div class="btn-block">
+        <button class="outlined">
+          <img src="google.png" />
+        </button>
+        <button class="outlined">
+          <img src="fasebook.png" />
+        </button>
+        <button class="outlined">
+          <img src="apple.png" />
+        </button>
+      </div>
+      <div class="goToSingnIn">
+        <p>
+          Don’t have an account?
+          <a href="singUp.html" style="color: #3750eb">Sing up</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

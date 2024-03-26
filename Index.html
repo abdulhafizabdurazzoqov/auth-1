@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        padding: 40px;
+      }
+
+      form {
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .logo img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 26px;
+      }
+
+      .image-block img {
+        width: 340px;
+        height: 280px;
+      margin-bottom: 50px;
+      }
+
+      .title h1 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      .title p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #999999;
+        margin-bottom: 40px;
+      }
+      
+      .btnBlock button {
+        border: none;
+        width: 400px;
+        height: 60px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+      }
+      .btnBlock button.contained {
+        background-color: #3750eb;
+      }
+      .btnBlock button.outlined {
+        border: 1px solid #3750eb;
+        background-color: transparent;
+      }
+      .btnBlock button.contained a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      .btnBlock button.outlined a {
+        color: #3750EB;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="logo">
+        <div style="text-align: center">
+          <img src="v.png" />
+        </div>
+      </div>
+      <div class="image-block">
+        <div style="text-align: center">
+          <img src="Telefon.png" />
+        </div>
+      </div>
+      <div class="title">
+        <h1>Hello !</h1>
+        <p>
+          Best place to write file stories and share your <br />
+          journey exporiences
+        </p>
+      </div>
+      <div class="btnBlock">
+        <button class="contained"><a href="singIn.html">Sign in</a></button>
+      </div>
+      <div class="btnBlock">
+        <button class="outlined"><a href="singUp.html">Sing up</a></button>
+      </div>
+    </form>
+  </body>
+</html>
